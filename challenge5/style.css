@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+  flex-direction: column;
+}
+#main {
+  border: 5px solid teal;
+}
+.status-bar {
+  font-size: 30px;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column {
+  width: 33%;
+}
+.status-bar__column:first-child {
+  margin-left: 30px;
+}
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+#quarter {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.quarter__box {
+  width: 50%;
+}
+.quarter__box:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  border-radius: 20px;
+  border: 2px black solid;
+  margin-left: -20px;
+}
+.quarter__box:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+#button {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.button__shape {
+  width: 30%;
+}
+.button__shape:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 70px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 25px;
+  box-shadow: 0px 5px black;
+  margin-right: 25px;
+}
+.button__shape:first-child span {
+  margin: 33px;
+}
+.button__shape:nth-child(2) {
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 50%;
+  box-shadow: 0px 5px black;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button__shape:last-child {
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 50%;
+  box-shadow: 0px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#musicc {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.music__box {
+  width: 50%;
+}
+.music__box:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  border: 2px black solid;
+  margin-right: 20px;
+  margin-left: -80px;
+}
+.music__box:last-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 5px;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.red {
+  background-color: red;
+}
+.pink {
+  background-color: hotpink;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: cadetblue;
+}
