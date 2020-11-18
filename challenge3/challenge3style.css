@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+}
+#dad {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  width: 600px;
+}
+#last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.size {
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+.tomato {
+  background-color: tomato;
+}
+.teal {
+  background-color: teal;
+}
+.burlywood {
+  background-color: burlywood;
+}
+.thistle {
+  background-color: thistle;
+}
+.inside {
+  background-color: white;
+  width: 200px;
+  height: 150px;
+  position: relative;
+  top: 10px;
+  flex-direction: column;
+}
+div > h2 {
+  padding-top: 20px;
+}

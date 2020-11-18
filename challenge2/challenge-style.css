@@ -1,0 +1,41 @@
+html {
+  background-color: white;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  height: 528px;
+  width: 765px;
+  display: flex;
+  margin: 100px;
+  padding: 50px;
+  background-color: tomato;
+}
+div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: moccasin;
+
+  height: 250px;
+  width: 250px;
+  border: 2px solid black;
+}
+.teal {
+  background-color: teal;
+}
+.solid {
+  border: 3px solid white;
+}
+.sizesmall {
+  width: 55px;
+  height: 55px;
+}
+.sizebig {
+  border-style: dotted;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 210px;
+  height: 55px;
+}

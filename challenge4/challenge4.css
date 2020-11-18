@@ -1,0 +1,73 @@
+body {
+  background-color: mediumturquoise;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+@keyframes spin {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+@keyframes wide {
+  0% {
+    transform: scaleY(0.7);
+  }
+  30% {
+    transform: scaleY(1.4);
+  }
+  60% {
+    transform: scaleY(0.7);
+  }
+  100% {
+    transform: scaleY(0.7);
+  }
+}
+#mom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: spin 0.7s ease-in-out infinite;
+}
+
+.son {
+  margin: 0px 10px;
+  height: 10px;
+  width: 10px;
+  position: relative;
+  border-radius: 50%;
+  background-color: white;
+}
+#dad {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dau {
+  animation: wide 1s ease-in-out infinite;
+  height: 50px;
+  width: 12px;
+  margin: 2px;
+  background-color: white;
+}
+.first {
+  animation-delay: 0s;
+}
+.second {
+  animation-delay: 0.1s;
+}
+.third {
+  animation-delay: 0.2s;
+}
+.fourth {
+  animation-delay: 0.3s;
+}
+.fifth {
+  animation-delay: 0.4s;
+}
