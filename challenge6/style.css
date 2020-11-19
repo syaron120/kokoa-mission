@@ -1,0 +1,141 @@
+@import "reset.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.yellowbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px 50px 20px;
+  font-size: 25px;
+  background-color: red;
+}
+.search-box {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: -20px;
+  margin: 0px 30px;
+}
+.inside::placeholder {
+  opacity: 0.4;
+}
+.inside {
+  position: relative;
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: none;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+.fa-search {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  opacity: 0.2;
+}
+.Title {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.isee {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.Book {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+}
+.spiderman {
+  width: auto;
+  height: auto;
+  width: 35%;
+  max-height: 200px;
+}
+.explain {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.who {
+  font-size: 20px;
+  opacity: 0.4;
+  margin-bottom: 10px;
+}
+.yellow {
+  color: red;
+  margin-bottom: 20px;
+}
+.gray {
+  color: gray;
+  opacity: 0.2;
+  margin-bottom: 20px;
+}
+.kinds {
+  display: flex;
+  justify-content: center;
+}
+.of {
+  border: none;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.fa-bookmark {
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 13px;
+  margin-right: 50px;
+}
+.Trybook {
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+  font-size: 15px;
+}
+.adventure {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px;
+}
+.marvel {
+  width: auto;
+  height: auto;
+  width: 120%;
+  max-height: 150px;
+  margin-bottom: 20px;
+}
+.yellowtwo {
+  color: red;
+  margin-bottom: px;
+}
+.graytwo {
+  color: gray;
+  opacity: 0.2;
+  margin-bottom: px;
+}
+.stanlee {
+  width: auto;
+  height: auto;
+  width: 35%;
+  max-height: 200px;
+}
+.authorexplain {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
