@@ -12,6 +12,10 @@
   box-shadow: #ffddd5;
   margin-bottom: 50px;
   box-shadow: 0px 7px 15px 0px #bde5f5;
+  transition: box-show 1 linear;
+}
+.freak:hover {
+  box-shadow: 0px 7px 15px 0px rgb(141, 129, 247);
 }
 .mainsong__text__h1 {
   font-weight: 600;
@@ -44,4 +48,8 @@
 }
 .fa-gray {
   opacity: 0.2;
+  transition: opacity 1 linear infinite;
+}
+.fa-gray:active {
+  opacity: 1;
 }
